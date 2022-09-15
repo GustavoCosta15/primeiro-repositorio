@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #efefed;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 340px;
+    height: 580px;
+    background-color: #2D364C;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+}
+
+.bar-left {
+    width: 50px;
+    height: 50px;
+}
+
+.bar-right {
+    display: flex;
+    justify-content: space-between;
+    width: 50px;
+    height: 50px;
+}
+
+.top-bar .fa {
+    color: #efefed;
+    font-size: 20px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+h2 {
+    color: #fff;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+h3 {
+    color: #444B61;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+p {
+    color: #fff;
+    text-align: center;
+    margin: 10px auto;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.button-hireme {
+    width: 140px;
+    height: 45px;
+    border: none;
+    border-radius: 30px;
+    background-image: linear-gradient(150deg, #CF0672 , #F73C99);
+    color: #fff;
+    font-size: 18px;
+    margin: 10px auto;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.button-hireme:hover {
+    background-image: linear-gradient(150deg, #F73C99, #CF0672);
+}
+
+hr {
+    width: 300px;
+    border-color: #efefed;
+    margin: 12px auto;
+}
+
+.social-container {
+    display: flex;
+    justify-content: space-between;
+    width: 340px;
+    padding: 10px 20px;
+}
+
+.social-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-button button {
+    width: 64px;
+    height: 64px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.social-button .fa {
+    color: #fff;
+    font-size: 40px;
+}
+
+.button-github {
+    background:linear-gradient(140deg, #040404, #000000, #656565);
+}
+
+.button-github:hover {
+    background:linear-gradient(140deg, #040404, #656565, #000000);
+}
+
+.button-linkedin {
+    background:linear-gradient(100deg, #0071bf, #1793d1);
+}
+
+.button-linkedin:hover {
+    background:linear-gradient(100deg, #1793d1, #0071bf);
+}
+
+.button-instagram {
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+
+.button-instagram:hover {
+    background:linear-gradient(45deg, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #405de6);
+}
+
+span {
+    color: #fff;
+    margin: 5px auto;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.social-button h3{
+    font-size: 14px;
+}
